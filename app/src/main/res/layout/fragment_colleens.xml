@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4CD58"
+    android:padding="30dp"
+    tools:context=".ColleensFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FAED7F">
+
+        <ImageView
+            android:id="@+id/coll"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@id/coll"
+            android:src="@drawable/icon" />
+
+        <ImageView
+            android:id="@+id/whatsapp"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/coll"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/download" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/coll"
+            android:layout_marginTop="48dp"
+            android:layout_toEndOf="@+id/gmail"
+            android:text=" What'sApp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+        <ImageView
+            android:id="@+id/gmail"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/whatsapp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/whatsapp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/whatsapp"
+            android:layout_marginTop="48dp"
+            android:layout_toEndOf="@+id/gmail"
+            android:text=" prissilamitri@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+        <ImageView
+            android:id="@+id/insta"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/gmail"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/insta" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gmail"
+            android:layout_marginTop="48dp"
+            android:layout_toEndOf="@+id/insta"
+            android:text=" colleens_kitchen_2021"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/insta"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/map" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/insta"
+            android:layout_marginTop="48dp"
+            android:layout_toEndOf="@+id/map"
+            android:text=" Mawlai Mawkynroh, Nehu gate 5, Shillong 793022
+"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/logoutt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/map"
+            android:layout_marginTop="48dp"
+            android:text="Logout"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</FrameLayout>

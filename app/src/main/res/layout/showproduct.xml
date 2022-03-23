@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/design_default_color_error"
+    android:layout_margin="10dp"
+    app:cardElevation="30dp">
+
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ABAFAF"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/a_showimg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="center"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/a_showPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pid"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/a_showpid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Catid"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/a_showcatid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Quantity"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/a_showName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/a_showcatname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/a_showdesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Delivery Price"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/a_showflavours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pname"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/a_showdevprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CatName"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/a_showquantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flavours"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/a_showweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:textStyle="italic"/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
